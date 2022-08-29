@@ -1,0 +1,12 @@
+.flash_on_hover_img >  .flash_on_hover:hover >  path {
+    stroke: red;
+    fill:red;
+}
+.flash_on_hover:hover >  path {
+    stroke: red;
+    fill:red;
+}
+.flash_on_hover:hover >  polyline {
+    stroke: red;
+    fill:red;
+}

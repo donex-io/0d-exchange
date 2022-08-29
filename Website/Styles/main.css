@@ -1,0 +1,115 @@
+/*Colors: dark grey:#131722 ; purple:#2F3241 ; #D9D9D9*/
+
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-color: #131722;
+	font-weight: normal;
+  font-size: medium;
+}
+
+body p {
+	border-width: 0px;
+	opacity: 1;
+	text-align: left;
+	border-collapse: collapse;
+	font-family: 'Roboto', sans-serif;
+	color: #D9D9D9;;
+	font-weight: normal;
+}
+
+.plaintext {
+	padding-right: 15px;
+	text-align: justify;
+	font-family: 'Roboto', sans-serif;
+	color: #D9D9D9;
+	font-size: small;
+	padding-left: 10px;
+}
+
+.plaintext_title{
+	padding-left: 10px;
+	padding-right: 15px;
+	text-align: justify;
+	margin-top: 30px;
+	color: #D9D9D9;
+	font-family: 'Roboto', sans-serif;
+	font-size: medium;
+}
+
+.modal_link:link{
+	color: #3191B9;
+	text-decoration: none;
+}
+
+.modal_link:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.modal_link:visited{
+	color: #3191B9;
+}
+
+.primary_header {
+	width: 100%;
+	background-color: #131722;
+	padding-top: 15px;
+	clear: left;
+	border-bottom: 0px solid #363C4E;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	text-align: center;
+	float: right;
+}
+
+.secondary_header {
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	background-color: #131722;
+	text-align: center;
+}
+
+.noDisplay {
+	display: none;
+	visibility: hidden;
+}
+
+.footer {
+	background-color: #131722;
+}
+
+.title {
+	font-weight: bold;
+	font-style: normal;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	color: #D9D9D9;
+	letter-spacing: 2px;
+}
+
+
+/* BEGIN custom scrollbar styles*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #131722;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #252733;
+		-webkit-transition-duration: 0.4s; /* Safari */
+		transition-duration: 0.4s;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #40445b;
+}
+/* END custom scrollbar styles*/

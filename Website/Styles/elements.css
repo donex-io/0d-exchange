@@ -1,0 +1,119 @@
+/* BEGIN Styles for long/short slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 44px;
+  height: 28px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #D9D9D9;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #D9D9D9;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+	background-color: #EF5350;
+	text-align: center;
+}
+
+input:not(:checked) + .slider {
+  background-color: #26A69A;
+}
+
+input:focus + .slider {
+	box-shadow: 0 0 1px #EF5350;
+	width: 33%;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(16px);
+  -ms-transform: translateX(16px);
+  transform: translateX(16px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 28px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/* END styles for long/short slider */
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: #A5A5A5;
+  opacity: 1; /* Firefox */
+	font-size: small;
+	text-align: middle;
+	font-family: 'Roboto', sans-serif;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: #D9D9D9;
+		font-size: small;
+	font-family: 'Roboto', sans-serif;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+	color: #D9D9D9;
+		font-size: small;
+	font-family: 'Roboto', sans-serif;
+}
+
+input[type="date"]:before {
+	content: attr(placeholder) !important;
+	color: #D9D9D9;
+	margin-right: 0.5em;
+	padding-left:0px;
+}
+input[type="date"]:focus:before,
+input[type="date"]:valid:before {
+	content: "";
+}
+
+.radioLong:checked {
+        background-color: #26A69A;
+}
+
+.radioShort:checked {
+        background-color: #EF5350;
+}
+
+.loader {
+    border: 16px solid white; /* Light grey */
+    border-top: 16px solid #37A6EF; /* Blue */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 1.5s linear infinite;
+		margin-left:33.3%;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

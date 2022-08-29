@@ -1,0 +1,224 @@
+
+.button_create {
+  -webkit-appearance: none;
+	height: 40px;
+	border-style: hidden;
+	border-color: #D9D9D9;
+	border-radius: 5px;
+	width: 80%;
+	font-size: medium;
+	color: #D9D9D9;
+	margin-top: 0px;
+	margin-bottom:20px;
+	background-color: #2F3241;
+	-webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+	cursor:pointer;
+  -webkit-animation: glowing 3000ms infinite;
+  -moz-animation: glowing 3000ms infinite;
+  -o-animation: glowing 3000ms infinite;
+  animation: glowing 3000ms infinite;
+  animation-timing-function: cubic-bezier(0.4, 0, 1, 1);
+  font-family: 'Roboto', sans-serif;
+}
+@-webkit-keyframes glowing {
+  0% { background-color: #2F3241; -webkit-box-shadow: 0 0 0px #2F3241; }
+  50% { background-color: #4c5166; -webkit-box-shadow: 0 0 0px #676d91; }
+  100% { background-color: #2F3241; -webkit-box-shadow: 0 0 0px #2F3241; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: #2F3241; -moz-box-shadow: 0 0 0px #2F3241; }
+  50% { background-color: #4c5166; -moz-box-shadow: 0 0 0px #676d91; }
+  100% { background-color: #2F3241; -moz-box-shadow: 0 0 0px #2F3241; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: #2F3241; box-shadow: 0 0 0px #2F3241; }
+  50% { background-color: #4c5166; box-shadow: 0 0 0px #676d91; }
+  100% { background-color: #2F3241; box-shadow: 0 0 0px #2F3241; }
+}
+
+@keyframes glowing {
+  0% { background-color: #2F3241; box-shadow: 0 0 0px #2F3241; }
+  50% { background-color: #4c5166; box-shadow: 0 0 0px #676d91; }
+  100% { background-color: #2F3241; box-shadow: 0 0 0px #2F3241; }
+
+}
+
+.button_create:hover {
+    background-color: #40445b;
+    color: #D9D9D9;
+}
+
+.button_quick {
+  -webkit-appearance: none;
+	height: 32.5px;
+	border-style: hidden;
+	border-color: #D9D9D9;
+	border-radius: 5px;
+	width: 100%;
+	font-size: small;
+	color: #D9D9D9;
+	margin-top: 0px;
+	background-color: #2F3241;
+	-webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+	cursor:pointer;
+}
+
+.button_quick:hover {
+    background-color: #40445b;
+    color: #D9D9D9;
+}
+
+.modal_button {
+	height: 50px;
+	border-style: hidden;
+	width: 40%;
+	font-size: medium;
+	color: white;
+	background-color: #62698e;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	cursor:pointer;
+	text-align: center;
+	border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.modal_button:hover {
+    background-color: #8791c1;
+    color: white;
+}
+
+.button_update {
+	height: 100%;
+	border-style: hidden;
+	font-size: small;
+	color: white;
+	background-color: #62698e;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	cursor:pointer;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.button_update:hover {
+    background-color: #8791c1;
+    color: white;
+}
+
+.button2 {
+  -webkit-appearance: none;
+	height: 50px;
+	border-style: hidden;
+	border-color: #D9D9D9;
+	border-radius: 5px;
+	width: 100%;
+	font-size: medium;
+	color: #D9D9D9;
+	margin-top: 0px;
+	margin-bottom:20px;
+	background-color: #2F3241;
+	-webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+	cursor:pointer;
+}
+
+.button2:hover {
+    background-color: #40445b;
+    color: #D9D9D9;
+}
+.buttonWithdraw {
+	height: 50px;
+	border-style: hidden;
+	width: 40%;
+	font-size: medium;
+	color: white;
+	background-color: #26A69A;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	cursor:pointer;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.buttonWithdraw:hover {
+    background-color: #4CCCC0;
+    color: white;
+}
+
+.modal_button_sell {
+	height: 50px;
+	border-style: hidden;
+	width: 50%;
+	font-size: medium;
+	color: white;
+	background-color: #d14947;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	cursor:pointer;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.modal_button_sell:hover {
+    background-color: #EF5350;
+    color: white;
+}
+
+.modal_button_oracle {
+	height: 50px;
+	border-style: hidden;
+	width: 25%;
+	font-size: medium;
+	color: white;
+	background-color: #EF5350;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	cursor:pointer;
+	text-align: center;
+}
+
+.modal_button_oracle:hover {
+    background-color: #ad403e;
+    color: white;
+}
+
+.modal_button_feedPrice {
+	height: 50px;
+	border-style: hidden;
+	width: 25%;
+	font-size: medium;
+	color: white;
+	background-color: #26A69A;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	cursor:pointer;
+	text-align: center;
+}
+
+.modal_button_feedPrice:hover {
+    background-color: #1f7c73;
+    color: white;
+}
+
+.modal_button_calculate {
+	height: 50px;
+	border-style: hidden;
+	width: 40%;
+	font-size: medium;
+	color: white;
+	background-color: #777777;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	cursor:pointer;
+	text-align: center;
+}
+
+.modal_button_calculate:hover {
+	background-color: #4A4A4A; /* Green */
+	color: white;
+}

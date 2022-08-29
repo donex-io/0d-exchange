@@ -1,0 +1,94 @@
+.countdown{
+  color: #D9D9D9;
+  font-size: small;
+	font-family: 'Roboto', sans-serif;
+  margin-top: 1px;
+  margin-bottom: 5px;
+}
+
+.copyright {
+  color: #D9D9D9;
+	font-size: small;
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+}
+
+.version2 {
+  color:  #D9D9D9;
+	font-size: small;
+  font-style: italic;
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+}
+
+.about{
+  color: #D9D9D9;
+	font-size: small;
+	font-family: 'Roboto', sans-serif;
+	text-decoration:none;
+
+}
+
+.about:hover{
+	color: #D9D9D9;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.textLink{
+  color: #1597FF;
+	font-size: small;
+	font-family: 'Roboto', sans-serif;
+	text-decoration:none;
+}
+
+.textLink:hover{
+  color: #1597FF;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.aboutText{
+	color: #D9D9D9;
+	font-size: small;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+.cookiePolicies{
+	color: #D9D9D9;
+	font-size: small;
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+	margin: 5%;
+}
+
+.long {
+	font-size: small;
+	color: #D9D9D9;
+	text-align: right;
+	font-family: 'Roboto', sans-serif;
+}
+
+.short {
+	font-size: small;
+	text-align: left;
+	color: #D9D9D9;
+	font-family: 'Roboto', sans-serif;
+}
+
+.smallText {
+	text-align: left;
+	font-size: small;
+	padding-left: 5px;
+	color: #363C4E;
+}
+
+.version {
+	text-align: right;
+	padding-right: 10px;
+	font-style: normal;
+	font-weight: normal;
+	color: #D9D9D9;
+	font-size: medium;
+}

@@ -1,0 +1,153 @@
+/* BEGIN modal styles*/
+
+.modal_title{
+  font-size: x-large;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	color: #000000;
+}
+
+.modal_derivative {
+	text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.modal_derivative_header {
+	padding-top: 0px;
+}
+
+.modal_acceptTerms {
+  color: #000000;
+  text-align: left;
+  font-size: normal;
+  font-family: 'Roboto', sans-serif;
+}
+
+.modal_table_input {
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	font-size: small;
+	font-weight: normal;
+	text-align: left;
+	width: 70px;
+	padding-left: 2%;
+	padding-right: 5%;
+	border-radius: 2px;
+}
+
+.modal_derivativeinfo {
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	font-size: small;
+	font-weight: normal;
+	text-align: left;
+}
+
+.modal_derivativeinfo_header {
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	font-size: small;
+	font-weight: bold;
+	text-align: left;
+	height: 10px;
+}
+
+.modal_derivative_table {
+	border-collapse: collapse;
+	border-style: hidden;
+	float: none;
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	width: 90%;
+	margin-right: 10%;
+}
+
+.modal_text{
+	color: #000000;
+	font-size: medium;
+	font-family: 'Roboto', sans-serif;
+  font-size: small;
+}
+
+.modal_input {
+  color: #000000;
+	background-color: white;
+	border-style: thin solid #363C4E;
+	font-size: small;
+	margin-top: 5%;
+	width: 30%;
+	height: 40px;
+	text-align: center;
+	margin-right: 5%;
+	border-radius: 5px;
+}
+
+.modal_input_text {
+  color: #000000;
+	background-color: white;
+	border-style: thin solid #363C4E;
+	font-size: small;
+	margin-top: 2%;
+	width: 75%;
+	height: 80px;
+	text-align: left;
+	margin-right: 2%;
+  margin-left: 2%;
+	border-radius: 5px;
+  vertical-align: top;
+  font-family: 'Roboto', sans-serif;
+  font-size: small;
+}
+
+.modal_table_div {
+	overflow-y: auto;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+	background-color: white;
+	margin: 15% auto; /* 15% from the top and centered */
+	padding: 20px;
+	width: 400px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+@media (max-width: 500px) {
+	.modal-content {
+		width: 280px;
+	}
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* END modal styles*/
